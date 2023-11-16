@@ -45,6 +45,7 @@ ul p{
 }
 
 .title{
+    padding: 5px;
     margin-bottom: 30px;
     color: #534C46;
     font-size: 25px;
