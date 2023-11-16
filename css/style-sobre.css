@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat&display=swap');
+
+
+*{
+    background-color: #F3EEFF;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Bakbak One';
+
+}
+
+
+nav{
+    background-color: #7A4FB0;
+    padding: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+a{
+    background-color: #7A4FB0;
+    color: #FFFFFF;
+}
+ 
+ul{
+    display: flex;
+    background-color: #7A4FB0;
+    justify-content: left;
+    font-size: 15px;
+}
+
+ul a{
+    padding: 0 15px;
+}
+
+ul p{
+    color: #FFFFFF;
+    background-color: #7A4FB0;
+    font-family: 'Montserrat';
+}
+
+.title{
+    margin-bottom: 30px;
+    color: #534C46;
+    font-size: 25px;
+    background: #BF91F9;
+    padding: 10px;
+    padding-left: 0%;
+    width: 60%;
+    margin: 0;
+    margin-top: 25px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.title h1{
+    background-color: #BF91F9;
+    
+}
+
+.texto-corpo{
+    padding:30px;
+    padding-bottom: 20px;
+    background: #E4CAF4;
+    width: 96%;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    border-radius: 20px;
+}
+
+.texto-corpo p{
+    margin-bottom: 20px;
+    background: #E4CAF4;
+    padding-right: 15px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 90%;
+   
+}
+.secao-dois{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+
+    
+}
+
+.sobre-app h2{
+    border: 1px solid black;
+    font-family: 'Montserrat';
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background:transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    
+    
+}
+
+.sobre-app{
+    font-family: 'Montserrat';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    border-radius: 10px;
+    background: #E4CAF4;
+    padding-left: 15px;
+    margin-bottom: 30px;
+
+}
+
+.secao-dois p{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    width: 90%;
+    background: #E4CAF4;
+    padding: 40px;
+    border-radius: 10px;
+
+}
