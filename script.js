@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const category = urlParams.get('category');
@@ -20,15 +19,26 @@ function showResults(category) {
     games.forEach(game => {
         const gameName = document.createElement('span');
         gameName.innerText = game;
-        gameName.className = 'gameCardName'
+        gameName.className = 'gameCardName';
 
         const gameCard = document.createElement('div');
         gameCard.className = 'gameCard';
         gameCard.appendChild(gameName);
+
+        // Adicionar evento de clique ao card
+        gameCard.addEventListener('click', function () {
+            redirectToGamePage(game);
+        });
+
         gameList.appendChild(gameCard);
     });
 
     return gameList;
+}
+
+function redirectToGamePage(game) {
+    // Redirecionar para jogo.html com o parâmetro do jogo selecionado
+    window.location.href = `jogo.html?game=${encodeURIComponent(game)}`;
 }
 
 function getGamesByCategory(category) {
